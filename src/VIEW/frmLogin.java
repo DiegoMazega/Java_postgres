@@ -40,7 +40,8 @@ public class frmLogin extends javax.swing.JFrame {
              frmPrincipal frmP = new frmPrincipal();
              frmP.setLocationRelativeTo(null);
              frmP.setVisible(true);
-             //faz o frame anterior sumir
+             //faz o frame anterior
+             //sumir
              dispose();
             } else{
                 JOptionPane.showMessageDialog(null, "usuario ou senha errados");
